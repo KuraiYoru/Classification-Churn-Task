@@ -1,0 +1,29 @@
+# 1. Данные
+*.csv
+*.xlsx
+*.xls
+*.dat
+data/
+datasets/
+
+# 2. Файлы Jupyter Notebook
+.ipynb_checkpoints/
+
+# 3. Виртуальные окружения Python
+# Окружение должно создаваться локально из requirements.txt
+venv/
+env/
+.env
+.venv
+
+# 4. Технические файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 5. Специфичные папки библиотек
+catboost_info/
+
+# 6. Системные файлы
+.DS_Store
+Thumbs.db
